@@ -109,7 +109,7 @@ const instaPost = {
     picture: 'img picture',
     shares: 3,
     myLocation: 'Downingtown, PA'
-}
+};
 
 console.log(instaPost);
 
@@ -118,7 +118,7 @@ let sentenceTwo = "I'm cool too";
 
 const fourthOfJuly = {
     username: '@ga'
-}
+};
 
 fourthOfJuly.pictures = "https://instagram.com/skhgkjfgb";
 fourthOfJuly.likes = 15;
@@ -126,3 +126,46 @@ fourthOfJuly.comments = ['ok...'];
 fourthOfJuly.captions = 'Writing code of the 4th';
 
 console.log(fourthOfJuly);
+
+//Functions
+ function sayHello() {
+     // write my code
+     // write your logic
+     console.log('Hello');
+ }
+
+ sayHello();
+
+ // Function Expression
+ const sayHelloAgain = function() {
+     console.log('Hello Again');
+ }
+
+ sayHelloAgain();
+
+ // Arrow Function
+
+ const sayHelloFinal = () => {
+     console.log('Hello last time');
+ }
+
+ sayHelloFinal();
+
+ //
+ const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+ const otherNumbers = [10, 20, 30, 40, 50, 60, 70, 80, 90];
+ 
+ function printNumbers(array) {
+     for (let i = 0; i < array.length; i++) {
+     let num = array[i];
+     
+     if (num < 50) {
+         console.log("This number is less than 50: " + num);
+     } else {
+        console.log("This number is greater than 50: " + num);
+     }
+     }
+ } 
+
+//  printNumbers(numbers);
+ printNumbers(otherNumbers);
