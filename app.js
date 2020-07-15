@@ -48,3 +48,14 @@ for (var i = 0; i < colors.length; i++) {
     var eachColor = colors[i];
     console.log(eachColor);
 }
+
+// make an array
+// use a for loop to iterate through your array
+// print each element in your array
+
+var deskItems = ["Monitor", "Keyboard", "Computer", "Water bottle"]
+
+for (var i = 0; i < deskItems.length; i++) {
+    var eachItem = deskItems[i];
+    console.log(eachItem);
+}
