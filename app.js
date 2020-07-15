@@ -34,3 +34,17 @@ while (favoriteNumber < upToHundred) {
     console.log(favoriteNumber);
     favoriteNumber += 1;
 }
+
+// FOR LOOPS
+
+for (var i = 0; i < 10; i++) {
+    console.log(i); // 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+}
+
+//PRINT COLORS
+
+
+for (var i = 0; i < colors.length; i++) {
+    var eachColor = colors[i];
+    console.log(eachColor);
+}
