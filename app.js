@@ -26,3 +26,11 @@ while (myOtherNumber < numberTwo) {
     console.log(myOtherNumber);
     myOtherNumber += 1; // adds 1 to myOtherNumber and reruns the loop until the condition is not met
 }
+
+var favoriteNumber = 13;
+var upToHundred = 100;
+
+while (favoriteNumber < upToHundred) {
+    console.log(favoriteNumber);
+    favoriteNumber += 1;
+}
