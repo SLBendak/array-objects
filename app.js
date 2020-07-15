@@ -112,3 +112,17 @@ const instaPost = {
 }
 
 console.log(instaPost);
+
+let sentence = "I'm Cool";
+let sentenceTwo = "I'm cool too";
+
+const fourthOfJuly = {
+    username: '@ga'
+}
+
+fourthOfJuly.pictures = "https://instagram.com/skhgkjfgb";
+fourthOfJuly.likes = 15;
+fourthOfJuly.comments = ['ok...'];
+fourthOfJuly.captions = 'Writing code of the 4th';
+
+console.log(fourthOfJuly);
